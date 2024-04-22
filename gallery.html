@@ -4,6 +4,7 @@
 <head>
     <title>Gallery</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
@@ -17,17 +18,26 @@
         <source src="image/video3.mp4" type="video/mp4">
     </video>
     <main class="contect2">
-        <h2 style="text-align: center; color: #fff;">Photo Gallery</h2>
-        <div class="scroll-container">
-            <img src="image/image (1).jpg" alt="Gambar Pertama" width="900" height="500">
-            <img src="image/image (2).jpg" alt="Gambar Kedua" width="900" height="500">
-            <img src="image/image (3).jpg" alt="Gambar ketiga" width="900" height="500">
-            <img src="image/image (4).jpg" alt="Gambar keempat" width="900" height="500">
-            <img src="image/image (5).jpg" alt="Gambar kelima" width="900" height="500">
-            <img src="image/image (6).jpg" alt="Gambar keenam" width="900" height="500">
-            <img src="image/image (7).jpg" alt="Gambar ketujuh   " width="900" height="500">
+        <h2 class="heading" style="text-align: center; color: #fff;">Photo Gallery</h2>
+        <div class="container">
+            <div class="image-container">
+                <div class="image"><img src="image/image (1).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (2).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (3).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (4).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (5).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (6).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (7).jpg" alt="japan"></div>
+                <div class="image"><img src="image/image (8).jpg" alt="japan"></div>
+            </div>
+            <p style="text-align: center;">click to enlarge image</p>
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="" alt="">
+            </div>
         </div>
     </main>
+    <script src="js/gallery.js"></script>
 </body>
 
 </html>
